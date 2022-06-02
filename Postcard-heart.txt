@@ -27,7 +27,7 @@ int main() {
 	SetConsoleScreenBufferSize(out_handle, crd);
 
 	setlocale(LC_CTYPE, "Russian");
-	cout << " С днём рождения, Надя :3 \n Желаю тебе всего самого наилучшего) \n\n\n";
+	cout << " С днём рождения, Имя :3 \n Желаю тебе всего самого наилучшего) \n\n\n"; // Сюда вписываем имя на место "имя"
 
 	for (float z = 1.5f; z > -1.5f; z -= 0.05f) {
 		for (float x = -1.5f; x < 1.5f; x += 0.025f) {
